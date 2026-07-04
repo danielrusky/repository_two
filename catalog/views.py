@@ -12,3 +12,19 @@ def index(request):
 
 def contact(request):
     return render(request, 'catalog/contacts.html')
+
+
+def trevor(request):
+    return render(request, 'catalog/newtab/trevor.html')
+
+
+def base(request):
+    return render(request, 'catalog/newtab/base.html')
+
+
+def artur(request):
+    return render(request, 'catalog/newtab/artur.html')
+
+
+def artur_two(request):
+    return render(request, 'catalog/newtab/artur_two.html')
